@@ -158,5 +158,35 @@ footer {
 }
 
 @media all and (max-width: 960px) {
+    header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-width: 100%;
+    }
 
+    footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-width: 100%;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    .nav-wraper {
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav-item-wraper {
+        display: block;
+        text-align: center;
+    }
+
+    main{
+        max-width: 90%;
+    }
 }

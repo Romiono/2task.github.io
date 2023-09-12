@@ -1,8 +1,4 @@
 .root {
-    /*display: flex;*/
-    /*flex-direction: column;*/
-    /*justify-content: center;*/
-    /*align-items: center;*/
     background-color: #f5f5f5;
     margin: 0;
     padding: 0;
@@ -18,6 +14,7 @@ header {
 
 header h3 {
     color: #f5f5f5;
+    text-align: center;
 }
 
 header nav ul {
@@ -79,7 +76,10 @@ td {
 footer {
     min-width: 100%;
     background-color: black;
-    color: #f5f5f5
+    color: #f5f5f5;
+    margin: 0;
+    position: relative;
+    top: 20px;
 }
 
 .nav-item-wraper {
@@ -157,23 +157,24 @@ footer {
     border: none;
 }
 
-@media all and (max-width: 960px) {
+@media all and (max-width: 900px) {
     header {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        min-width: 100%;
+        max-width: 100%;
     }
 
     footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        min-width: 100%;
+        max-width: 100%;
     }
 
     nav {
-        flex-direction: column;
+        display: block;
+        min-width: 100px;
     }
 
     .nav-wraper {
@@ -189,4 +190,46 @@ footer {
     main{
         max-width: 90%;
     }
+}@media all and (max-width: 900px) {
+    header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+    }
+
+    .logo {
+        margin: 20px 49px 0 49px;
+    }
+
+    footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+    }
+
+    nav {
+        display: block;
+        min-width: 100px;
+    }
+
+    .nav-wraper {
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav-item-wraper {
+        display: block;
+        text-align: center;
+    }
+
+    .nav-item {
+        margin: 0;
+    }
+
+    main{
+        max-width: 90%;
+    }
 }
+

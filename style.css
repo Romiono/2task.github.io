@@ -32,11 +32,12 @@ nav {
 }
 
 main {
-    min-width: 960px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    max-width: 960px;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    margin: 0 auto;
     margin: 0 auto;
 }
 
@@ -64,7 +65,7 @@ table {
     table-layout: fixed;
     border-collapse: collapse;
     border: 3px solid black;
-    margin: 50px;
+    margin: 50px auto;
     width: 600px;
 }
 

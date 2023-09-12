@@ -231,5 +231,9 @@ footer {
     main{
         max-width: 90%;
     }
+
+    table {
+        display: none;
+    }
 }
 

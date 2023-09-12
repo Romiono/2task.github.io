@@ -1,10 +1,11 @@
 .root {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
     background-color: #f5f5f5;
     margin: 0;
+    padding: 0;
 }
 header {
     min-width: 100%;
@@ -27,11 +28,11 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 960px;
+    min-width: 960px;
 }
 
 main {
-    max-width: 960px;
+    min-width: 960px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -75,7 +76,7 @@ td {
 }
 
 footer {
-    width: 100%;
+    min-width: 100%;
     background-color: black;
     color: #f5f5f5
 }

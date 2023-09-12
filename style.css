@@ -7,7 +7,7 @@
     margin: 0;
 }
 header {
-    width: 100%;
+    min-width: 100%;
     position: relative;
     background-color: black;
     display: flex;
@@ -31,7 +31,7 @@ nav {
 }
 
 main {
-    width: 960px;
+    max-width: 960px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -44,6 +44,9 @@ li {
 
 a {
     font-size: 20px;
+}
+
+main ol li {
     padding: 10px;
     margin: 5px;
     background-color: bisque;
@@ -151,7 +154,7 @@ footer {
 }
 
 @media all and (max-width: 960px) {
-    #header {
+    header {
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -167,9 +170,8 @@ footer {
         padding: 0;
     }
 
-    .nav-item {
+    .nav-item-wraper {
         display: block;
-        margin: 0;
         text-align: center;
     }
 

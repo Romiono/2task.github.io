@@ -113,8 +113,8 @@ footer {
 }
 
 .logo {
-    width: 25px;
-    height: 25px;
+    width: 75px;
+    height: 75px;
     margin: 10px;
 }
 
@@ -221,12 +221,3 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
-@font-face {
-    font-family: Montserrat;
-    src: url("./components/fonts/Montserrat-Regular.ttf");
-}
-
-@font-face {
-    font-family: "Bebas Neue";
-    src: url("./components/fonts/Bebas Neue Cyrillic.ttf");
-}
